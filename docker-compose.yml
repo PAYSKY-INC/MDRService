@@ -3,7 +3,7 @@ version: '3.4'
 services:
   webapi:
     image: ${DOCKER_REGISTRY-}webapi
-    container_name: CleanArchitecture.webapi
+    container_name: MDRService.webapi
     build:
       context: .
       dockerfile: ClientApp/API/WebAPI/Dockerfile
@@ -11,12 +11,12 @@ services:
       - "8080:8080"
       - "8081:8081"
     depends_on:
-      - CleanArchitecture.database 
-  CleanArchitecture.database:
+      - MDRService.database 
+  MDRService.database:
     image: mcr.microsoft.com/mssql/server:2022-latest
     volumes:
       - .\db:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA
-    container_name: CleanArchitecture.database
+    container_name: MDRService.database
     environment:
       - "ACCEPT_EULA=Y"
       - "MSSQL_SA_PASSWORD=P@ssw0rd@123"
@@ -29,7 +29,7 @@ services:
         retries: 10
         start_period: 10s
         timeout: 3s 
-  CleanArchitecture.cache:
+  MDRService.cache:
      image: redis:latest
      restart: always
      ports:

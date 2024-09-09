@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Common
+﻿namespace MDRService.Domain.Common
 {
     public abstract class AuditableEntity : Entity, IAuditableEntity
     {

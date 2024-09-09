@@ -1,14 +1,14 @@
-﻿using CleanArchitecture.Application.Common.Abstracts;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Identity.JwtSetupOtions;
-using CleanArchitecture.Persistence.EF;
+﻿using MDRService.Application.Common.Abstracts;
+using MDRService.Infrastructure.Identity;
+using MDRService.Infrastructure.Identity.JwtSetupOtions;
+using MDRService.Persistence.EF;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleanArchitecture.WebAPI.Configuration
+namespace MDRService.WebAPI.Configuration
 {
     public class AuthenticationAndAuthorizatonServicesInstaller : IServiceInstaller
     {

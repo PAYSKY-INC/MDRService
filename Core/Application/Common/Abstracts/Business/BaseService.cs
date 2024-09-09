@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Abstracts.Business
+﻿namespace MDRService.Application.Common.Abstracts.Business
 {
     public abstract class BaseService : IService
     {

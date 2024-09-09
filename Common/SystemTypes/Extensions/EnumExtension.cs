@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Common.SystemTypes.Extensions
+﻿namespace MDRService.Common.SystemTypes.Extensions
 {
     public static class EnumExtension
     {

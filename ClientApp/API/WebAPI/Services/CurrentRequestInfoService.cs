@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.ClinetInfo;
+﻿using MDRService.Application.Common.Abstracts.ClinetInfo;
 
-namespace CleanArchitecture.WebAPI.Services
+namespace MDRService.WebAPI.Services
 {
     public class CurrentRequestInfoService : ICurrentRequestInfoService
     {

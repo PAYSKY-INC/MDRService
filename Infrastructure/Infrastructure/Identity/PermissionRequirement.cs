@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace MDRService.Infrastructure.Identity
 {
     public class PermissionRequirement : IAuthorizationRequirement
     {

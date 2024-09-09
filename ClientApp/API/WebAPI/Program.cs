@@ -1,9 +1,9 @@
-using CleanArchitecture.Application.Common.Abstracts.Account;
-using CleanArchitecture.Application.Common.Abstracts.ClinetInfo;
-using CleanArchitecture.Persistence.EF;
-using CleanArchitecture.WebAPI.Common;
-using CleanArchitecture.WebAPI.Configuration;
-using CleanArchitecture.WebAPI.Services;
+using MDRService.Application.Common.Abstracts.Account;
+using MDRService.Application.Common.Abstracts.ClinetInfo;
+using MDRService.Persistence.EF;
+using MDRService.WebAPI.Common;
+using MDRService.WebAPI.Configuration;
+using MDRService.WebAPI.Services;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 

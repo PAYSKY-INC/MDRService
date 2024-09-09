@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using MDRService.Application.Common.Models;
 using System.Net;
 
-namespace CleanArchitecture.Application.Common.Errors
+namespace MDRService.Application.Common.Errors
 {
     public static class SecurityAccessErrors
     {

@@ -1,15 +1,15 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Persistence;
-using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Common.Linq.Model;
-using CleanArchitecture.Domain.Common;
-using Common.Linq;
+﻿using Common.Linq;
+using MDRService.Application.Common.Abstracts.Persistence;
+using MDRService.Application.Common.Exceptions;
+using MDRService.Common.Linq.Model;
+using MDRService.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using System.ComponentModel;
 using System.Linq.Expressions;
 using static Common.Linq.IQueryableExtension;
 
-namespace CleanArchitecture.Persistence.EF.EntitySets
+namespace MDRService.Persistence.EF.EntitySets
 {
     public class EntitySet<T> : IEntitySet<T> where T : Entity, IAggregateRoot
     {

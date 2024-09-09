@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Caching;
+﻿using MDRService.Application.Common.Abstracts.Caching;
 using Microsoft.Extensions.Hosting;
 
-namespace CleanArchitecture.Infrastructure.Caching
+namespace MDRService.Infrastructure.Caching
 {
     public class InvalidationCacheChannelSubscriber : IHostedService
     {

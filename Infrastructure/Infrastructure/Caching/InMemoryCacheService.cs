@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Caching;
+﻿using MDRService.Application.Common.Abstracts.Caching;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using System.Collections.Concurrent;
 
-namespace CleanArchitecture.Infrastructure.Caching;
+namespace MDRService.Infrastructure.Caching;
 
 public class InMemoryCacheService : IInMemoryCacheService
 {

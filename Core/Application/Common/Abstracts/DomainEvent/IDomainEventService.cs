@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using MDRService.Domain.Common;
 
-namespace CleanArchitecture.Application.Common.Abstracts.DomainEvent
+namespace MDRService.Application.Common.Abstracts.DomainEvent
 {
     public interface IDomainEventService
     {

@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Persistence;
-using CleanArchitecture.Domain.Constants;
-using CleanArchitecture.Infrastructure.Identity;
+﻿using MDRService.Application.Common.Abstracts.Persistence;
+using MDRService.Domain.Constants;
+using MDRService.Infrastructure.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.Security.Claims;
 
-namespace CleanArchitecture.Persistence.EF
+namespace MDRService.Persistence.EF
 {
     public static class InitializerExtensions
     {

@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using MDRService.Domain.Common;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace CleanArchitecture.Persistence.EF.Interceptors
+namespace MDRService.Persistence.EF.Interceptors
 {
     public class DispatchDomainEventsInterceptor : SaveChangesInterceptor
     {

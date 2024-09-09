@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using MDRService.Application.Common.Models;
 
-namespace CleanArchitecture.Application.Common.Messaging
+namespace MDRService.Application.Common.Messaging
 {
     public interface IResponse<T>
     {

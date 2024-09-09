@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Domain.Constants;
+﻿using MDRService.Domain.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace MDRService.Infrastructure.Identity
 {
     public class PermissionAuthorizationHandler : AuthorizationHandler<PermissionRequirement>
     {

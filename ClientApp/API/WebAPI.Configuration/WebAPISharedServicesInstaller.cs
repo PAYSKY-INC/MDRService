@@ -1,14 +1,14 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Business;
-using CleanArchitecture.Application.Common.Abstracts.Persistence;
-using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Messaging;
-using Common.DependencyInjection.Extensions;
+﻿using Common.DependencyInjection.Extensions;
 using FluentValidation;
+using MDRService.Application.Common.Abstracts.Business;
+using MDRService.Application.Common.Abstracts.Persistence;
+using MDRService.Application.Common.Exceptions;
+using MDRService.Application.Common.Messaging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace CleanArchitecture.WebAPI.Configuration
+namespace MDRService.WebAPI.Configuration
 {
     public class WebApiSharedServicesInstaller : IServiceInstaller
     {

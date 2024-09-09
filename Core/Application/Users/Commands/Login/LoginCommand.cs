@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Abstracts;
-using CleanArchitecture.Application.Common.Abstracts.Persistence;
-using CleanArchitecture.Application.Common.Messaging;
-using CleanArchitecture.Application.Users.Commands.Dtos;
+﻿using MDRService.Application.Common.Abstracts;
+using MDRService.Application.Common.Abstracts.Persistence;
+using MDRService.Application.Common.Messaging;
+using MDRService.Application.Users.Commands.Dtos;
 
-namespace CleanArchitecture.Application.Users.Commands.Login
+namespace MDRService.Application.Users.Commands.Login
 {
     #region Request
     public record LoginCommand(string Password) : BaseCommand<TokenResponse>

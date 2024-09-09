@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Caching;
-using CleanArchitecture.Application.Common.Caching;
-using CleanArchitecture.Application.Common.Extensions;
-using CleanArchitecture.Application.Common.Messaging;
+﻿using MDRService.Application.Common.Abstracts.Caching;
+using MDRService.Application.Common.Caching;
+using MDRService.Application.Common.Extensions;
+using MDRService.Application.Common.Messaging;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Reflection;
 
 
-namespace CleanArchitecture.Application.Common.Behaviours;
+namespace MDRService.Application.Common.Behaviours;
 
 public class CachingBehaviour<TRequest, TResponse> : IRequestResponsePipeline<TRequest, TResponse>
         where TRequest : ICacheable

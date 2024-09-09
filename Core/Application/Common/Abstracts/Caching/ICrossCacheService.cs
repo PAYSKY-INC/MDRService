@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Caching;
+﻿using MDRService.Application.Common.Caching;
 
-namespace CleanArchitecture.Application.Common.Abstracts.Caching;
+namespace MDRService.Application.Common.Abstracts.Caching;
 public interface ICrossCacheService
 {
     Task<T?> GetCacheAsync<T>(string cacheKey,

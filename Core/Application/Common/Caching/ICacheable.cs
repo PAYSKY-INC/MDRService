@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Caching
+﻿namespace MDRService.Application.Common.Caching
 {
     public interface ICacheable
     {

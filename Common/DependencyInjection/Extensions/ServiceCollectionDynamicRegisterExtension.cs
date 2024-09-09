@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
+﻿using MDRService.Application.Common.Exceptions;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Common.DependencyInjection.Extensions

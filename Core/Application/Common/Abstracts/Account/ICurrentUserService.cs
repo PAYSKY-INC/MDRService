@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Abstracts.Account
+﻿namespace MDRService.Application.Common.Abstracts.Account
 {
     public interface ICurrentUser
     {

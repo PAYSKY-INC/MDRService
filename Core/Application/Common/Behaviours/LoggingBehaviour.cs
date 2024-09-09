@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Application.Common.Messaging;
+﻿using MDRService.Application.Common.Messaging;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace CleanArchitecture.Application.Common.Behaviours
+namespace MDRService.Application.Common.Behaviours
 {
     public class LoggingBehaviour<TRequest, TResponse> : IRequestResponsePipeline<TRequest, TResponse>
          where TRequest : IBaseRequest<Response<TResponse>>
@@ -22,7 +22,7 @@ namespace CleanArchitecture.Application.Common.Behaviours
 
         public async Task<Response<TResponse>> Handle(TRequest request, MyRequestResponseHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
-            Logger.LogInformation("CleanArchitecture Processing request  Request: {Name} {@RequestType} {@UserId} {@UserName} {@Request}",
+            Logger.LogInformation("MDRService Processing request  Request: {Name} {@RequestType} {@UserId} {@UserName} {@Request}",
                 request.RequestName, request.RequestType, request.UserId, request.UserName, request);
 
             var response = await next();
@@ -36,7 +36,7 @@ namespace CleanArchitecture.Application.Common.Behaviours
 
             if (response.IsSuccess)
             {
-                Logger.LogInformation("CleanArchitecture Completed Response: Request Name: {RequestName} Response:{@Response}",
+                Logger.LogInformation("MDRService Completed Response: Request Name: {RequestName} Response:{@Response}",
                                       request.RequestName,
                                       JsonConvert.SerializeObject(response, options));
             }

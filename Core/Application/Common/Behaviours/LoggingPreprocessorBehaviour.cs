@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Messaging;
+﻿using MDRService.Application.Common.Messaging;
 using System.Diagnostics;
 
-namespace CleanArchitecture.Application.Common.Behaviours
+namespace MDRService.Application.Common.Behaviours
 {
     public class LoggingPreprocessorBehaviour<TRequest> : IRequestPreProcessor<TRequest>
         where TRequest : notnull, IBaseQuery

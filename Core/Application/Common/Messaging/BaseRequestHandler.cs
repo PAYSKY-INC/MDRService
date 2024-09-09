@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using CleanArchitecture.Application.Common.Abstracts.Account;
-using CleanArchitecture.Application.Common.Abstracts.Persistence;
 using Common.DependencyInjection.Extensions;
+using MDRService.Application.Common.Abstracts.Account;
+using MDRService.Application.Common.Abstracts.Persistence;
 
-namespace CleanArchitecture.Application.Common.Messaging
+namespace MDRService.Application.Common.Messaging
 {
     #region Class BaseRequestHandler
     public abstract class BaseRequestHandler<TRequest, TResponse> : IBaseRequestHandler<TRequest, TResponse>

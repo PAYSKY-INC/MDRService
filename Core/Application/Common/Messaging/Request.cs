@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace CleanArchitecture.Application.Common.Messaging
+namespace MDRService.Application.Common.Messaging
 {
     #region Class BaseRequest 
     public record BaseRequest<TResponse> : IBaseRequest<TResponse>

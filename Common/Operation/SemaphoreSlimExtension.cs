@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Common.Operation
+﻿namespace MDRService.Common.Operation
 {
     public static class SemaphoreSlimExtension
     {

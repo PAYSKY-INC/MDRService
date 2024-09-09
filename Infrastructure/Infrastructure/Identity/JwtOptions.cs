@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Infrastructure.Identity
+﻿namespace MDRService.Infrastructure.Identity
 {
     public class JwtOptions
     {

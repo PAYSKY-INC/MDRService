@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Application.Common.Errors;
-using CleanArchitecture.Application.Common.Messaging;
+﻿using MDRService.Application.Common.Errors;
+using MDRService.Application.Common.Messaging;
 using Microsoft.AspNetCore.Identity;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace MDRService.Infrastructure.Identity
 {
     public static class IdentityResultExtensions
     {

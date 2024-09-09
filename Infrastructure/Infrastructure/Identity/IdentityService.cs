@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.Application.Common.Abstracts;
-using CleanArchitecture.Application.Common.Abstracts.Account;
-using CleanArchitecture.Application.Common.Errors;
-using CleanArchitecture.Application.Common.Messaging;
-using CleanArchitecture.Application.Users.Commands.Dtos;
+﻿using MDRService.Application.Common.Abstracts;
+using MDRService.Application.Common.Abstracts.Account;
+using MDRService.Application.Common.Errors;
+using MDRService.Application.Common.Messaging;
+using MDRService.Application.Users.Commands.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace MDRService.Infrastructure.Identity
 {
     public class IdentityService : IIdentityService
     {

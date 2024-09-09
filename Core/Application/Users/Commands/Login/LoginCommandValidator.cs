@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Abstracts;
-using FluentValidation;
+﻿using FluentValidation;
+using MDRService.Application.Common.Abstracts;
 
-namespace CleanArchitecture.Application.Users.Commands.Login
+namespace MDRService.Application.Users.Commands.Login
 {
     public class LoginCommandValidator : AbstractValidator<LoginCommand>
     {

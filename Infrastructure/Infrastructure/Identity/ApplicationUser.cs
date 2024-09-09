@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using MDRService.Domain.Common;
 using Microsoft.AspNetCore.Identity;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace MDRService.Infrastructure.Identity
 {
     public class ApplicationUser : IdentityUser, IAuditableEntity
     {

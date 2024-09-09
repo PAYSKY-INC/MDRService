@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Messaging;
-using CleanArchitecture.Application.Users.Commands.Dtos;
+﻿using MDRService.Application.Common.Messaging;
+using MDRService.Application.Users.Commands.Dtos;
 
-namespace CleanArchitecture.Application.Common.Abstracts
+namespace MDRService.Application.Common.Abstracts
 {
     public interface IIdentityService
     {

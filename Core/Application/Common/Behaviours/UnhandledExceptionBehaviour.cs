@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Messaging;
-using CleanArchitecture.Application.Common.Models;
+﻿using MDRService.Application.Common.Messaging;
+using MDRService.Application.Common.Models;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace CleanArchitecture.Application.Common.Behaviours
+namespace MDRService.Application.Common.Behaviours
 {
     public class UnhandledExceptionBehaviour<TRequest, TResponse> : IRequestResponsePipeline<TRequest, TResponse>
           where TRequest : IBaseRequest<Response<TResponse>>
@@ -35,7 +35,7 @@ namespace CleanArchitecture.Application.Common.Behaviours
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, message: "CleanArchitecture Request: Unhandled Exception for Request {@Name} {@Request} {@Message}", requestName, request, ex.Message);
+                _logger.LogError(ex, message: "MDRService Request: Unhandled Exception for Request {@Name} {@Request} {@Message}", requestName, request, ex.Message);
 
                 return Response.Failure<TResponse>(Error.ThrowException(ex));
             }

@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Abstracts;
-using CleanArchitecture.Application.Common.Errors;
-using CleanArchitecture.Application.Common.Messaging;
-using CleanArchitecture.Application.Common.Security;
-using CleanArchitecture.Domain.Constants;
+﻿using MDRService.Application.Common.Abstracts;
+using MDRService.Application.Common.Errors;
+using MDRService.Application.Common.Messaging;
+using MDRService.Application.Common.Security;
+using MDRService.Domain.Constants;
 using System.Reflection;
 
-namespace CleanArchitecture.Application.Common.Behaviours
+namespace MDRService.Application.Common.Behaviours
 {
     public class AuthorizationBehaviour<TRequest, TResponse> : IRequestResponsePipeline<TRequest, TResponse>
         where TRequest : IBaseRequest<Response<TResponse>>

@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Abstracts.ClinetInfo
+﻿namespace MDRService.Application.Common.Abstracts.ClinetInfo
 {
     public interface ICurrentRequestInfoService
     {

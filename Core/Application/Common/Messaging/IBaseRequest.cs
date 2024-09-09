@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace CleanArchitecture.Application.Common.Messaging
+namespace MDRService.Application.Common.Messaging
 {
     public enum RequestType
     {

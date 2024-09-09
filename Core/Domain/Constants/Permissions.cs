@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Common.SystemTypes.Extensions;
+﻿using MDRService.Common.SystemTypes.Extensions;
 
-namespace CleanArchitecture.Domain.Constants
+namespace MDRService.Domain.Constants
 {
     public enum Modules
     {

@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Common.Abstracts.Persistence
+﻿namespace MDRService.Application.Common.Abstracts.Persistence
 {
     public interface IApplicationDbContext
     {

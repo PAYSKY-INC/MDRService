@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Users.Commands.Dtos
+﻿namespace MDRService.Application.Users.Commands.Dtos
 {
     public record TokenResponse
     {

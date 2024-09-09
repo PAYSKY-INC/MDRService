@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.Configuration", "Cli
 		{0FDB63A4-2A1C-4A04-AD06-880FD28F15D8} = {0FDB63A4-2A1C-4A04-AD06-880FD28F15D8}
 	EndProjectSection
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "CleanArchitecture.docker-compose", "CleanArchitecture.docker-compose.dcproj", "{FD8145AD-7095-4E59-8622-FB6CD7692D9B}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "MDRService.docker-compose", "MDRService.docker-compose.dcproj", "{FD8145AD-7095-4E59-8622-FB6CD7692D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Errors;
-using CleanArchitecture.Application.Common.Messaging;
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.Results;
+using MDRService.Application.Common.Errors;
+using MDRService.Application.Common.Messaging;
 
-namespace CleanArchitecture.Application.Common.Behaviours
+namespace MDRService.Application.Common.Behaviours
 {
     public class ValidationBehaviour<TRequest, TResponse> : IRequestResponsePipeline<TRequest, TResponse>
           where TRequest : IBaseRequest<Response<TResponse>>

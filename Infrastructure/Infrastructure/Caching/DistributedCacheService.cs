@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Caching;
-using CleanArchitecture.Common.Operation;
-using CleanArchitecture.Infrastructure.Caching.RedisSetupConfigurationOptions;
+﻿using MDRService.Application.Common.Abstracts.Caching;
+using MDRService.Common.Operation;
+using MDRService.Infrastructure.Caching.RedisSetupConfigurationOptions;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 
-namespace CleanArchitecture.Infrastructure.Caching;
+namespace MDRService.Infrastructure.Caching;
 public class DistributedCacheService : IDistributedCacheService
 {
     #region Dependencies

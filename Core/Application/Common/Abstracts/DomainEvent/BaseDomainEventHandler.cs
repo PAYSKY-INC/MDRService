@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Account;
-using CleanArchitecture.Domain.Common;
-using Common.DependencyInjection.Extensions;
+﻿using Common.DependencyInjection.Extensions;
+using MDRService.Application.Common.Abstracts.Account;
+using MDRService.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Application.Common.Abstracts.DomainEvent
+namespace MDRService.Application.Common.Abstracts.DomainEvent
 {
     public abstract class BaseDomainEventHandler<TDomainEvent> : INotificationHandler<TDomainEvent>
         where TDomainEvent : BaseDomainEvent
@@ -32,7 +32,7 @@ namespace CleanArchitecture.Application.Common.Abstracts.DomainEvent
         #region Handle
         public Task Handle(TDomainEvent notification, CancellationToken cancellationToken)
         {
-            Logger.LogInformation("CleanArchitecture Domain Event: {DomainEvent}", notification.GetType().Name);
+            Logger.LogInformation("MDRService Domain Event: {DomainEvent}", notification.GetType().Name);
 
             return HandleEvent(notification, cancellationToken);
         }

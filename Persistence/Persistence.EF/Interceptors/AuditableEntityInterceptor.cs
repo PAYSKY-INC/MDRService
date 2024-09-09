@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Abstracts.Account;
-using CleanArchitecture.Domain.Common;
-using Common.SystemTypes.Extensions;
+﻿using Common.SystemTypes.Extensions;
+using MDRService.Application.Common.Abstracts.Account;
+using MDRService.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace CleanArchitecture.Persistence.EF.Interceptors
+namespace MDRService.Persistence.EF.Interceptors
 {
     public class AuditableEntityInterceptor : SaveChangesInterceptor
     {
